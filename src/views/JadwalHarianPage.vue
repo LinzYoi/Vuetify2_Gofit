@@ -219,7 +219,7 @@ export default {
     },
     
     deleteAllData() {
-      var url = this.$api + "/jadwalHarian/";
+      var url = this.$api + "/jadwalHarian";
       this.$http
         .delete(url, {
           headers: {

@@ -16,8 +16,8 @@ Vue.config.productionTip = false
 Vue.prototype.$http = axios;
 // Vue.prototype.$api = 'http://127.0.0.1:8000/api';
 // Vue.prototype.$baseUrl = 'http://127.0.0.1:8000';
-Vue.prototype.$api = 'https://backendgofit.gofitceria.com/public/api';
-Vue.prototype.$baseUrl = 'https://backendgofit.gofitceria.com/public';
+Vue.prototype.$api = 'https://backendgofitceria.grhapengharapan.org/public/api';
+Vue.prototype.$baseUrl = 'https://backendgofitceria.grhapengharapan.org/public';
 new Vue({
   vuetify,
   router,
